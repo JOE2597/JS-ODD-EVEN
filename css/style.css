@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.titleForm{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+.formBox{
+    width: 500px;
+    height: 250px;
+    border: 2px solid rgb(247, 244, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px black;
+    background-color: rgb(64, 230, 172);
+    
+}
+.form{
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
+}
+.textbox{
+    font-family: 'Poppins', sans-serif;
+    height: 20px;
+
+}
+.checkBtn{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+.clrbtn {
+    width: 80px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+.displayAns{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 20px;
+}
